@@ -177,6 +177,9 @@ syntax on
 set ruler
 set number
 set relativenumber
+set tabstop=2
+set shiftwidth=2
+set expandtab
 
 let no_buffers_menu=1
 silent! colorscheme molokai
