@@ -25,6 +25,7 @@ map <C-k> :bprev<CR>
 " plugin preservim/nerdtree
 map <C-f> <Esc><Esc>:Files!<CR>
 inoremap <C-f> <Esc><Esc>:BLines!<CR>
+let NERDTreeShowHidden=1
 
 " Commands
 " Start NERDTree and leave the cursor in it.
